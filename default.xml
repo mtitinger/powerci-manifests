@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="buildroot" fetch="git://git.buildroot.net" />
+  <remote fetch="ssh://git@github.com/mtitinger" name="mtitinger" />
+  <remote name="baylibre" fetch="ssh://git@git.baylibre.com/pub" />
+
+  <default revision="master" remote="mtitinger" />
+
+  <project  name="POWERCI" path="." />
+
+</manifest>
