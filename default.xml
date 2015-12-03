@@ -5,10 +5,12 @@
   <remote fetch="ssh://git@github.com/mtitinger" name="mtitinger" />
   <remote name="baylibre" fetch="ssh://git@git.baylibre.com/pub" />
   <remote name="lava" fetch="https://git.linaro.org/lava" />
+  <remote name="kernelci" fetch="https://github.com/kernelci" />
 
   <default revision="master" remote="mtitinger" />
 
   <project name="POWERCI" path="." />
   <project name="lava-dispatcher" path="SRC/lava-dispatcher" remote="lava" />
+  <project name="lava-ci" path="SRC/lava-ci" remote="kernelci" />
 
 </manifest>
